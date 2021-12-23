@@ -1,14 +1,17 @@
 import React from 'react'
 import './Style.css'
 
-function Funcomp() {
+function FunctionComponent() {
+    const myStyle={
+        color:"blue"
+    }
     return (
         <div className='functioncomponent'>
             <h2>This is created using Functional Component</h2>
             <p className='paragraph'>This is done using external CSS</p>
-            <p style={{color:"blueviolet"}}>This is done using internal CSS</p>    
+            <p style={myStyle}>This is done using internal CSS</p>    
         </div>
     )
 }
 
-export default Funcomp
+export default FunctionComponent

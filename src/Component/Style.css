@@ -5,23 +5,23 @@
 }
 
 .functioncomponent{
-    height: 230px;
-    width: 400px;
+    height: 260px;
+    width: 450px;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: aqua;
+    background-color: rgb(93, 218, 218);
     text-align: center;
     position: absolute;
     top: 303px;
     left: 165px;
 }
 
-.classcomponent{
-    height: 230px;
-    width: 400px;
+.ClassComponent{
+    height: 260px;
+    width: 450px;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: aqua;
+    background-color: rgb(94, 219, 219);
     text-align: center; 
     position: absolute;
     left: 950px; 
@@ -37,6 +37,7 @@
     border: 1px solid black;
     background-color: blue;
     height: 70px;
+    width: 300px;
     margin-left: 200px;
 
 }
@@ -46,4 +47,5 @@
     border: 1px solid black;
     background-color: blue;
     height: 70px;
+    width: 300px;
 }
